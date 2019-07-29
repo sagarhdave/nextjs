@@ -1,0 +1,32 @@
+html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: sans-serif;
+    height: 100%;
+    font-size: 62.5%;
+  }
+  
+  *, *:after, *:before {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+    -webkit-transition: inherit;
+    transition: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  #__next{
+    height:100%;
+  }
+
+
+  .student-work-main{ 
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-start;
+	align-items: center;
+	align-content: center;
+}
