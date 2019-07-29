@@ -27,10 +27,16 @@ const CourseCardContent = props => {
             position: absolute;
             bottom: 0;
             width: 100%;
-            padding: 19px 10px;
+            padding: 16px 10px;
          }
          .name-course p{
              margin: 0;
+            font-size: 12px;
+
+         }
+         .name-course h3 {
+             font-size: 16px;
+                 margin-top: 6px;
          }
          `}</style>
         </>
