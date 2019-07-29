@@ -65,6 +65,8 @@ class Navbar extends Component {
                     width: 100%;
                     color: #D1D1D1;
                     position:fixed;
+                        z-index: 999;
+
                 }
                 
                 header .nav-left,
