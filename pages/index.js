@@ -16,8 +16,13 @@ import StudentWorkContent from './Home/StudentWorkContent';
 import FullPage from './Home/FullPage';
 import Highlights from './Home/Highlights';
 import SectionName from './../components/SectionName';
+import Facilities from './../components/Facilities';
 
-
+let facilitiesData = [
+    { title: 'Library', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ullamco laboris nisi ut aliquip ex ea commodo consequat.', image: '/static/test-img.png' },
+    { title: 'Library 1', content: 'Lorem2 ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ullamco laboris nisi ut aliquip ex ea commodo consequat.', image: '/static/test-img.png' },
+    { title: 'Library 2', content: 'Lorem3 ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ullamco laboris nisi ut aliquip ex ea commodo consequat.', image: '/static/test-img.png' },
+];
 
 class Home extends React.Component {
   render() {
@@ -74,7 +79,8 @@ class Home extends React.Component {
                 title="AlUMNI NAME" course="Bachelor of Arts (Hons) in Landscape Architecture"/>
             </div>
         </Wrapper>
-      </StudentWork>   
+        </StudentWork>
+            <Facilities slide={facilitiesData[0]} /> 
    </>
     );
   }
